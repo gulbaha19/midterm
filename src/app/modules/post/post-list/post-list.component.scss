@@ -1,0 +1,28 @@
+h1:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 0;
+  transition: all linear .2s;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.post {
+  background: aliceblue; margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background linear .2s;
+  cursor: pointer;
+}
+
+.post:hover {
+  background: #e3f2ff;
+}
